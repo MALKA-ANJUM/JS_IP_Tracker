@@ -12,4 +12,16 @@
     justify-content: center;
     align-items: center;
 }
-.ip-display
+.ip-display,
+.location-display{
+    font-size: 1em
+}
+.lookup-btn{
+    background: #333;
+    padding: 1rem;
+    cursor: pointer;
+    transition: opacity 0.25s linear;
+}
+.lookup-btn:hover{
+    opacity: 0.8;
+}
