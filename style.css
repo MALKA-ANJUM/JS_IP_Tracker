@@ -4,23 +4,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    list-style: none;
 }
+
 .main-container{
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    border: 1px solid green;
+    flex-direction: column;
+    
 }
-.ip-display,
-.location-display{
-    font-size: 1em
+.container{
+    background: url(back.jpg);
+    
 }
+
+
 .lookup-btn{
     background: #333;
     padding: 1rem;
     cursor: pointer;
-    transition: opacity 0.25s linear;
 }
 .lookup-btn:hover{
     opacity: 0.8;
